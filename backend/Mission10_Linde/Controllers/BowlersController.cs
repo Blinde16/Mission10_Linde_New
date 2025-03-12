@@ -8,15 +8,16 @@ namespace Mission10_Linde.Controllers
     [ApiController]
     public class BowlersController : ControllerBase
     {
-        private BowlersContext _bowlersContext;
-        public BowlersController(BowlersContext temp)
+        private readonly IBowlerRepository _bowlerRepository;
+
+        public BowlersController(IBowlerRepository temp)
         {
-            _bowlersContext = temp;
+            _bowlerRepository = temp;
         }
         [HttpGet(Name = "GetBowlers")]
         public IEnumerable<object> Get()
         {
-            var bowlerList = _bowlersContext.Bowlers
+            var bowlerList = _bowlerRepository.Bowlers
                 .Include(b => b.Team) // Load related Team data
                 .Where(b => b.Team != null && (b.Team.TeamName == "Marlins" || b.Team.TeamName == "Sharks"))
                 .Select(b => new
