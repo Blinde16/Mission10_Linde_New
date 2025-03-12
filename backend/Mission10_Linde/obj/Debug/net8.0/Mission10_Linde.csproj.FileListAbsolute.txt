@@ -321,3 +321,4 @@ C:\Users\Blake\source\repos\Mission10_Linde\backend\Mission10_Linde\obj\Debug\ne
 C:\Users\Blake\source\repos\Mission10_Linde\backend\Mission10_Linde\obj\Debug\net8.0\Mission10_Linde.pdb
 C:\Users\Blake\source\repos\Mission10_Linde\backend\Mission10_Linde\obj\Debug\net8.0\Mission10_Linde.genruntimeconfig.cache
 C:\Users\Blake\source\repos\Mission10_Linde\backend\Mission10_Linde\obj\Debug\net8.0\ref\Mission10_Linde.dll
+C:\Users\Blake\source\repos\Mission10_Linde\backend\Mission10_Linde\obj\Debug\net8.0\Mission10_Linde.sourcelink.json

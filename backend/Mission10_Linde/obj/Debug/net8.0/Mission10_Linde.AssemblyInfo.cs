@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission10_Linde")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e72bf5dc24fb499dee7b214e1e111418b121a25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission10_Linde")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission10_Linde")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
