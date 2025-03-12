@@ -1,0 +1,6 @@
+@Mission10_Linde_HostAddress = http://localhost:5161
+
+GET {{Mission10_Linde_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
